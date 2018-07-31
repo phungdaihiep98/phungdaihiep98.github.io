@@ -92,11 +92,33 @@ body{
 	color: #fff;
 }
 /*CONTENT*/
+#contact .contact{
+	position: relative;
+	display: inline-block;
+
+}
+#contact .contact .tooltip{
+	visibility: hidden;
+	width: 100px;
+	background-color: #333333;
+	color: white;
+	text-align: center;
+	top: -5px;
+    right: 105%; 
+    font-size: 18px;
+    border-radius: 5px;
+
+	position: absolute;
+	z-index: 1;
+}
+#contact .contact:hover .tooltip{
+	visibility: visible;
+}
 
 #content #main-content #btn-click{
 	margin-bottom: 0;
 	margin-top: 12%;
-	float: right;
+	margin-left: 60%;
 
 	
 
